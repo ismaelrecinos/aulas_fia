@@ -1,0 +1,11 @@
+login:
+    path:     /login
+    defaults: { _controller: AulasBundle:Login:login }
+
+index:
+    path:     /inicio
+    defaults: { _controller: AulasBundle:Index:inicio }
+
+salir:
+    path:     /salir
+    defaults: { _controller: AulasBundle:Index:salir }

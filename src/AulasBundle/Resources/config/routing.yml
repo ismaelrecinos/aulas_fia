@@ -1,0 +1,11 @@
+#aulas_homepage:
+#    path:     /
+#    defaults: { _controller: AulasBundle:Default:index }
+
+aulas_user_user:
+    resource: "@AulasBundle/Resources/config/routes/usuarios.yml"
+    prefix:   /usuarios
+
+aulas_index_index:
+    resource: "@AulasBundle/Resources/config/routes/index.yml"
+    prefix:   /index

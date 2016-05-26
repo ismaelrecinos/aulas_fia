@@ -1,0 +1,7 @@
+usuarios_index:
+    path:     /index
+    defaults: { _controller: AulasBundle:Usuarios:index }
+
+usuarios_view:
+    path:     /view/{id}
+    defaults: { _controller: AulasBundle:Usuarios:view }
